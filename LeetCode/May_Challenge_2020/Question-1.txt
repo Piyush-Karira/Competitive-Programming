@@ -1,5 +1,7 @@
 Question-Tag:   First Bad Version
 
+// Forward declaration of isBadVersion API.
+bool isBadVersion(int version);
 
 class Solution {
 public:
