@@ -1,10 +1,12 @@
-Question: https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/534/week-1-may-1st-may-7th/3316/
+/*Question: https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/534/week-1-may-1st-may-7th/3316/
 
 Question-Tag:   First Bad Version
 
 
 Time Complexity: O(logn)
 Space Ccomplexity: O(1)
+*/
+
 
 // Forward declaration of isBadVersion API.
 bool isBadVersion(int version);

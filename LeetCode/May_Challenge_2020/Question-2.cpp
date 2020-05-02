@@ -1,10 +1,11 @@
-Question: https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/534/week-1-may-1st-may-7th/3317
+/*Question: https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/534/week-1-may-1st-may-7th/3317
 
 Question-tag: Jewels and Stones
 
 Solution 1
 Time Complexity: O((S+J)*logS) where J ans S are length of arrays
 Space Complexity: O(1)
+*/
 
 class Solution {
 public:
@@ -22,11 +23,11 @@ public:
     }
 };
 
-
+/*
 Solution 2
 Time Complexity: O(J+S) where J ans S are length of arrays
 Space Complexity: O(S)
-
+*/
 
 class Solution {
 public:
