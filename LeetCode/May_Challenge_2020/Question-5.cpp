@@ -1,0 +1,24 @@
+/*Question: https://leetcode.com/explore/featured/card/may-leetcoding-challenge/534/week-1-may-1st-may-7th/3320/
+
+Question-Tag:  First Unique Character in a String
+
+Time Complexity: O(n)
+Space Complexity: O(n)*/
+
+class Solution {
+public:
+    int firstUniqChar(string s) {
+        unordered_map<char,int> mp;
+        
+        for(auto c: s){
+            mp[c]++;
+        }
+        
+        for(int i=0;i<s.length();i++)
+        {
+            if(mp[s[i]]==1)
+                return i;
+        }
+        return -1;
+    }
+};
